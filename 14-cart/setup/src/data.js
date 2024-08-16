@@ -1,23 +1,23 @@
 export default [
   {
     id: 1,
-    title: 'Samsung Galaxy S7',
+    title: "Samsung Galaxy S7",
     price: 599.99,
-    img: 'https://dl.airtable.com/.attachments/91ee456448cef47deec553a2ea3fa8ad/b08bec68/phone-2_ohtt5s.png',
+    img: "https://static.doji.co/product/medias/smartphones/samsung/galaxy-s7-edge/1-white-front_back.png",
     amount: 1,
   },
   {
     id: 2,
-    title: 'google pixel ',
+    title: "google pixel ",
     price: 499.99,
-    img: 'https://dl.airtable.com/.attachments/91c88ae8c1580e2b762ecb3f73ed1eed/a633139a/phone-1_gvesln.png',
+    img: "https://storage.googleapis.com/alpine-inkwell-325917.appspot.com/devices/pixel-6-header.png",
     amount: 1,
   },
   {
     id: 3,
-    title: 'Xiaomi Redmi Note 2',
+    title: "Xiaomi Redmi Note 2",
     price: 699.99,
-    img: 'https://dl.airtable.com/.attachments/bae9208dc34f35128749ecda5b999e84/337c285d/phone-3_h2s6fo.png',
+    img: "https://i05.appmifile.com/735_item_uk/16/02/2024/1190124a8dd202366319e1298d637a63!400x400!85.png",
     amount: 1,
   },
 ];

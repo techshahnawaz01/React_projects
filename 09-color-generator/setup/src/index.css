@@ -50,6 +50,7 @@ Global Styles
 ===============
 */
 
+
 *,
 ::after,
 ::before {
@@ -103,9 +104,7 @@ p {
   h2 {
     font-size: 2.5rem;
   }
-  h3 {
-    font-size: 1.75rem;
-  }
+  
   h4 {
     font-size: 1rem;
   }
@@ -114,10 +113,16 @@ p {
   }
   h1,
   h2,
-  h3,
   h4 {
     line-height: 1;
   }
+}
+h3
+{
+  font-size: 4.3rem;
+font-weight: 900;
+color:  rgb(43, 42, 42);
+  transition: .6s ease-in-out;
 }
 /*  global classes */
 
@@ -150,18 +155,19 @@ Color Generator
 .container h3 {
   margin-bottom: 0;
   margin-right: 2rem;
+  transition: .6s ease-in-out;
 }
 
 input {
   border-color: transparent;
-  padding: 0.5rem 1rem;
+  padding: 1rem 5rem;
   font-size: 1.2rem;
   border-top-left-radius: var(--radius);
   border-bottom-left-radius: var(--radius);
 }
 .btn {
   background: var(--clr-primary-5);
-  padding: 0.5rem 1rem;
+  padding: 1rem 3rem;
   font-size: 1.2rem;
   border-color: transparent;
   border-top-right-radius: var(--radius);
@@ -169,6 +175,7 @@ input {
   text-transform: capitalize;
   color: var(--clr-white);
   cursor: pointer;
+  transition: .6s ease-in-out;
 }
 @media screen and (max-width: 576px) {
   .container h3 {
@@ -187,16 +194,19 @@ input.error {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(223.33px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(96px, 1fr));
+  transition: .6s ease-in-out;
 }
 .color {
   padding: 1rem 2rem;
   cursor: pointer;
   font-size: 1rem;
   text-transform: none;
+  transition: .6s ease-in-out;
 }
 .percent-value {
   margin-bottom: 0;
   color: var(--clr-grey-1);
+  transition: .6s ease-in-out;
 }
 .color-value {
   color: var(--clr-grey-1);
@@ -204,13 +214,25 @@ input.error {
 }
 .color-light .color-value {
   color: var(--clr-white);
+  transition: .6s ease-in-out;
 }
 .color-light .percent-value {
   color: var(--clr-white);
+  transition: .6s ease-in-out;
 }
 
 .alert {
   text-transform: uppercase;
   font-size: 0.85rem;
   margin-top: 0.5rem;
+  transition: .6s ease-in-out; 
+}
+.underline {
+  width: 40rem;
+  height: 0.2rem;
+  margin-bottom: 1.25rem;
+  background: var(--clr-primary-5);
+  margin-left: auto;
+  margin-right: auto;
+  transition: .6s ease-in-out;
 }
